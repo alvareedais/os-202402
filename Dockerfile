@@ -1,7 +1,7 @@
 #menggunakan base image ubuntu
-Form ubuntu:22.04
+From ubuntu:22.04
 
-Update dan install paket
+#Update dan install paket dasar
 Run apt-get update && apt-get install -y \
 bash \
 nano \
@@ -11,5 +11,5 @@ iputils-ping \
 procps \
 net-tools
 
-set Default Shell
+#set Default Shell
 CMD ["/bin/bash"]
